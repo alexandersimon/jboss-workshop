@@ -8,8 +8,8 @@ Terraform Projekt:
 https://github.com/alexandersimon/jboss-workshop-setup
 
 ## Instanzen
-CentOS Linux 7 x86_64 HVM EBS ENA: ami-0e8286b71b81c3cc1
-EC2 Instanz: t2.medium und t2.large
+- CentOS Linux 7 x86_64 HVM EBS ENA: ami-0e8286b71b81c3cc1
+- EC2 Instanz: t2.medium und t2.large
 
 ### Deployment Server (cicd)
 - Beschreibung initiales Setup: https://github.com/alexandersimon/ansible-jboss-eap7
@@ -35,23 +35,29 @@ EC2 Instanz: t2.medium und t2.large
 ## Agenda
 
 ### Dienstag 25.11.2020
+- Unterlagen: [Ansible Basics](files/20201113_Ansible.pdf)
 - Installation und Konfiguraton der Umgebung
 - Verteilung der SSH Schlüssel für Ansible
 - Grundlagen Ansible
 
 ### Freitag 27.11.2020
+- Unterlagen: [JBoss EAP Update](files/20201125_jbosseap7.pdf)
+- Unterlagen: [JBoss EAP Clustering](files/20201125_jbosseap_clustering.pdf)
 - Ansible Grundlagen und Konfiguration
 - Verteilung / Installation von JBoss mittels Ansible
 - Deploment von Web Anwendungen mit Ansible
 - Update von Redhat JBoss EAP Stack
 
 ### Donnerstag 03.12.2020
+- Unterlagen: [Jenkins Basics](files/20201203_jenkins-pipelines.pdf)
 - Jenkins Grundlagen
 - Nützliche Jenkins Plugins (Rollen, Themes, Continuous Integration, Continuous Delivery)
 - Continuous Integration & Continuous Delivery
 - Aufbau einer Build Pipeline
 
 ### Freitag 04.12.2020
+- Unterlagen: [ELK Stack](files/20201204_elkdemo.pdf)
+- Unterlagen: [Tracing](files/20201204_opentracing.pdf)
 - Grundlagen Monitoring
 - Grundlagen ELK Stack (Elasticsearch, Logstash, Kibana)
 - Anbindung der JBoss EAP Server an ELK Stack
